@@ -1,0 +1,146 @@
+2022-07-13 08:20:33,554 ERROR Fail to connect 2.0.0.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2022-07-13 08:20:33,555 ERROR Fail to connect 2.0.0.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2022-07-13 08:20:33,555 ERROR Fail to connect 2.0.0.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2022-07-13 08:20:55,053 ERROR Fail to connect 2.0.0.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2022-07-13 08:20:55,053 ERROR Fail to connect 2.0.0.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2022-07-13 09:38:57,180 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-07-13 09:38:57,316 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-07-13 09:38:57,588 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-07-13 09:38:57,595 INFO The number of active nodes increment to 1.
+
+2022-07-13 09:38:58,276 INFO Starts FSMCaller successfully.
+
+2022-07-13 09:38:58,301 INFO Loading snapshot, meta=last_included_index: 2
+last_included_term: 2
+peers: "2.0.0.1:7848"
+.
+
+2022-07-13 09:38:58,484 INFO Node <naming_persistent_service_v2/2.0.0.1:7848> onSnapshotLoadDone, last_included_index: 2
+last_included_term: 2
+peers: "2.0.0.1:7848"
+
+
+2022-07-13 09:38:58,487 INFO Node <naming_persistent_service_v2/2.0.0.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-07-13 09:38:59,052 INFO Node <naming_persistent_service_v2/2.0.0.1:7848> init, term=2, lastLogId=LogId [index=2, term=2], conf=2.0.0.1:7848, oldConf=.
+
+2022-07-13 09:38:59,056 INFO Node <naming_persistent_service_v2/2.0.0.1:7848> start vote and grant vote self, term=2.
+
+2022-07-13 09:38:59,165 WARN Unable to fsync directory D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-07-13 09:38:59,165 INFO Save raft meta, path=D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\meta-data, term=3, votedFor=2.0.0.1:7848, cost time=106 ms
+
+2022-07-13 09:38:59,167 INFO Node <naming_persistent_service_v2/2.0.0.1:7848> become leader of group, term=3, conf=2.0.0.1:7848, oldConf=.
+
+2022-07-13 09:38:59,175 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-07-13 09:38:59,181 WARN RPC server is not started in RaftGroupService.
+
+2022-07-13 09:38:59,181 INFO Start the RaftGroupService successfully.
+
+2022-07-13 09:38:59,230 INFO onLeaderStart: term=3.
+
+2022-07-13 09:38:59,353 INFO The number of active nodes increment to 2.
+
+2022-07-13 09:38:59,433 WARN Channel in TRANSIENT_FAILURE state: 2.0.0.1:7848.
+
+2022-07-13 09:38:59,434 WARN Channel in SHUTDOWN state: 2.0.0.1:7848.
+
+2022-07-13 09:38:59,695 INFO Starts FSMCaller successfully.
+
+2022-07-13 09:38:59,699 INFO Loading snapshot, meta=last_included_index: 2
+last_included_term: 2
+peers: "2.0.0.1:7848"
+.
+
+2022-07-13 09:38:59,703 INFO Node <naming_instance_metadata/2.0.0.1:7848> onSnapshotLoadDone, last_included_index: 2
+last_included_term: 2
+peers: "2.0.0.1:7848"
+
+
+2022-07-13 09:38:59,703 INFO Node <naming_instance_metadata/2.0.0.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-07-13 09:38:59,706 INFO Node <naming_instance_metadata/2.0.0.1:7848> init, term=2, lastLogId=LogId [index=2, term=2], conf=2.0.0.1:7848, oldConf=.
+
+2022-07-13 09:38:59,706 INFO Node <naming_instance_metadata/2.0.0.1:7848> start vote and grant vote self, term=2.
+
+2022-07-13 09:38:59,764 WARN Unable to fsync directory D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-07-13 09:38:59,765 INFO Save raft meta, path=D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\meta-data, term=3, votedFor=2.0.0.1:7848, cost time=57 ms
+
+2022-07-13 09:38:59,765 INFO Node <naming_instance_metadata/2.0.0.1:7848> become leader of group, term=3, conf=2.0.0.1:7848, oldConf=.
+
+2022-07-13 09:38:59,766 WARN RPC server is not started in RaftGroupService.
+
+2022-07-13 09:38:59,766 INFO Start the RaftGroupService successfully.
+
+2022-07-13 09:38:59,774 INFO The number of active nodes increment to 3.
+
+2022-07-13 09:38:59,791 INFO onLeaderStart: term=3.
+
+2022-07-13 09:39:00,150 INFO Starts FSMCaller successfully.
+
+2022-07-13 09:39:00,177 INFO Loading snapshot, meta=last_included_index: 2
+last_included_term: 2
+peers: "2.0.0.1:7848"
+.
+
+2022-07-13 09:39:00,184 INFO Node <naming_service_metadata/2.0.0.1:7848> onSnapshotLoadDone, last_included_index: 2
+last_included_term: 2
+peers: "2.0.0.1:7848"
+
+
+2022-07-13 09:39:00,184 INFO Node <naming_service_metadata/2.0.0.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-07-13 09:39:00,189 INFO Node <naming_service_metadata/2.0.0.1:7848> init, term=2, lastLogId=LogId [index=2, term=2], conf=2.0.0.1:7848, oldConf=.
+
+2022-07-13 09:39:00,190 INFO Node <naming_service_metadata/2.0.0.1:7848> start vote and grant vote self, term=2.
+
+2022-07-13 09:39:00,282 WARN Unable to fsync directory D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-07-13 09:39:00,282 INFO Save raft meta, path=D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\meta-data, term=3, votedFor=2.0.0.1:7848, cost time=91 ms
+
+2022-07-13 09:39:00,282 INFO Node <naming_service_metadata/2.0.0.1:7848> become leader of group, term=3, conf=2.0.0.1:7848, oldConf=.
+
+2022-07-13 09:39:00,283 WARN RPC server is not started in RaftGroupService.
+
+2022-07-13 09:39:00,283 INFO Start the RaftGroupService successfully.
+
+2022-07-13 09:39:00,310 INFO onLeaderStart: term=3.
+
+2022-07-13 09:39:00,450 ERROR Fail to connect 2.0.0.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.893050100s. [buffered_nanos=752580500, remote_addr=/2.0.0.1:7848].
+
+2022-07-13 09:39:00,450 ERROR Fail to connect peer 2.0.0.1:7848 to get leader for group naming_persistent_service_v2.
+
+2022-07-13 09:58:07,124 WARN Unable to fsync directory D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-07-13 09:58:07,124 INFO Deleting snapshot D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_3.
+
+2022-07-13 09:58:07,124 INFO Renaming D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_3.
+
+2022-07-13 09:58:07,127 INFO Deleting snapshot D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_2.
+
+2022-07-13 10:01:49,894 WARN Unable to fsync directory D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-07-13 10:01:49,895 INFO Deleting snapshot D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_3.
+
+2022-07-13 10:01:49,895 INFO Renaming D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_3.
+
+2022-07-13 10:01:49,898 INFO Deleting snapshot D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+
+2022-07-13 10:06:25,719 WARN Unable to fsync directory D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-07-13 10:06:25,721 INFO Deleting snapshot D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\snapshot\snapshot_3.
+
+2022-07-13 10:06:25,721 INFO Renaming D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\snapshot\snapshot_3.
+
+2022-07-13 10:06:25,730 INFO Deleting snapshot D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\data\protocol\raft\naming_service_metadata\snapshot\snapshot_2.
+

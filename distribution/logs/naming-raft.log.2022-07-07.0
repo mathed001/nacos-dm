@@ -1,0 +1,6 @@
+2022-07-07 18:13:30,078 INFO initializing Raft sub-system
+
+2022-07-07 18:13:30,079 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-07-07 18:13:30,411 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+

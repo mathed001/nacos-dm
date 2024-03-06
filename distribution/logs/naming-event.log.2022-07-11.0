@@ -1,0 +1,6 @@
+2022-07-11 09:00:43,535 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-07-11 21:05:23,607 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:7001@DEFAULT@jeecg-system, region: unknown, msg: client last beat: 1657533921949
+
+2022-07-11 21:05:23,607 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:9999@DEFAULT@jeecg-gateway, region: unknown, msg: client last beat: 1657533922275
+

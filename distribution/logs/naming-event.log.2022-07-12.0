@@ -1,0 +1,18 @@
+2022-07-12 10:59:40,706 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:9999@DEFAULT@jeecg-gateway, region: unknown, msg: client last beat: 1657590661462
+
+2022-07-12 10:59:40,706 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:7001@DEFAULT@jeecg-system, region: unknown, msg: client last beat: 1657590659504
+
+2022-07-12 13:31:11,673 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:7001@DEFAULT@jeecg-system, region: unknown, msg: client last beat: 1657598076047
+
+2022-07-12 13:31:11,673 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:9999@DEFAULT@jeecg-gateway, region: unknown, msg: client last beat: 1657598076733
+
+2022-07-12 17:08:00,013 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:9999@DEFAULT@jeecg-gateway, region: unknown, msg: client last beat: 1657606119917
+
+2022-07-12 17:08:00,013 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:7001@DEFAULT@jeecg-system, region: unknown, msg: client last beat: 1657606118488
+
+2022-07-12 20:53:03,407 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:9999@DEFAULT@jeecg-gateway, region: unknown, msg: client last beat: 1657630383407
+
+2022-07-12 20:53:03,407 INFO {POS} {IP-DISABLED} valid: 2.0.0.1:7001@DEFAULT@jeecg-system, region: unknown, msg: client last beat: 1657619583631
+
+2022-07-12 20:53:10,613 INFO service: DEFAULT_GROUP@@jeecg-gateway {POS} {IP-ENABLED} valid: 2.0.0.1:9999@DEFAULT, region: unknown, msg: client beat ok
+

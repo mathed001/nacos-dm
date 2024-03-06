@@ -1,0 +1,200 @@
+2022-07-14 14:26:36,112 INFO Starting Nacos v2.1.0 using Java 1.8.0_144 on LAPTOP-N14SKM24 with PID 34400 (D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\target\nacos-server.jar started by zangwill in D:\MyWorkspaceCloud\jeecg-boot-master\nacos-develop\distribution\bin)
+
+2022-07-14 14:26:36,140 INFO The following 1 profile is active: "standalone"
+
+2022-07-14 14:26:42,182 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-07-14 14:26:48,496 INFO Starting service [Tomcat]
+
+2022-07-14 14:26:48,496 INFO Starting Servlet engine: [Apache Tomcat/9.0.63]
+
+2022-07-14 14:26:48,695 INFO Initializing Spring embedded WebApplicationContext
+
+2022-07-14 14:26:48,696 INFO Root WebApplicationContext: initialization completed in 12461 ms
+
+2022-07-14 14:26:49,596 INFO Nacos-related cluster resource initialization
+
+2022-07-14 14:26:49,606 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2022-07-14 14:26:49,606 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2022-07-14 14:26:49,616 INFO The cluster resource is initialized
+
+2022-07-14 14:26:49,759 INFO Get Distro config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2022-07-14 14:26:50,697 INFO HikariPool-1 - Starting...
+
+2022-07-14 14:26:51,116 INFO HikariPool-1 - Start completed.
+
+2022-07-14 14:26:57,618 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-07-14 14:26:58,226 WARN You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2022-07-14 14:26:58,228 INFO Will not secure Ant [pattern='/**']
+
+2022-07-14 14:26:58,279 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@553f1d75, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a335fa8, org.springframework.security.web.header.HeaderWriterFilter@c260bdc, org.springframework.security.web.csrf.CsrfFilter@546ccad7, org.springframework.security.web.authentication.logout.LogoutFilter@44828f6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3829ac1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bb1fde8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e1d8f9e, org.springframework.security.web.session.SessionManagementFilter@2783717b, org.springframework.security.web.access.ExceptionTranslationFilter@5ad10c1a]
+
+2022-07-14 14:26:58,312 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+
+2022-07-14 14:26:58,375 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-07-14 14:26:58,409 INFO Started Nacos in 25.071 seconds (JVM running for 26.637)
+
+2022-07-14 14:26:58,410 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2022-07-14 14:36:51,238 INFO [capacityManagement] start correct usage
+
+2022-07-14 14:36:51,248 INFO [capacityManagement] end correct usage, cost: 0.008743s
+
+2022-07-14 14:36:51,517 WARN clearConfigHistory start
+
+2022-07-14 14:36:51,518 WARN clearConfigHistory, getBeforeStamp:2022-06-14 14:36:51.0, pageSize:1000
+
+2022-07-14 14:46:51,252 INFO [capacityManagement] start correct usage
+
+2022-07-14 14:46:51,260 INFO [capacityManagement] end correct usage, cost: 0.0076005s
+
+2022-07-14 14:46:51,530 WARN clearConfigHistory start
+
+2022-07-14 14:46:51,530 WARN clearConfigHistory, getBeforeStamp:2022-06-14 14:46:51.0, pageSize:1000
+
+2022-07-14 14:56:51,273 INFO [capacityManagement] start correct usage
+
+2022-07-14 14:56:51,278 INFO [capacityManagement] end correct usage, cost: 0.0050563s
+
+2022-07-14 14:56:51,552 WARN clearConfigHistory start
+
+2022-07-14 14:56:51,552 WARN clearConfigHistory, getBeforeStamp:2022-06-14 14:56:51.0, pageSize:1000
+
+2022-07-14 14:59:54,068 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@5fae4ce (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 15:00:01,431 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@60bc91e9 (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 15:06:51,287 INFO [capacityManagement] start correct usage
+
+2022-07-14 15:06:51,299 INFO [capacityManagement] end correct usage, cost: 0.0105606s
+
+2022-07-14 15:06:51,567 WARN clearConfigHistory start
+
+2022-07-14 15:06:51,568 WARN clearConfigHistory, getBeforeStamp:2022-06-14 15:06:51.0, pageSize:1000
+
+2022-07-14 15:16:51,313 INFO [capacityManagement] start correct usage
+
+2022-07-14 15:16:51,320 INFO [capacityManagement] end correct usage, cost: 0.0070669s
+
+2022-07-14 15:16:51,574 WARN clearConfigHistory start
+
+2022-07-14 15:16:51,575 WARN clearConfigHistory, getBeforeStamp:2022-06-14 15:16:51.0, pageSize:1000
+
+2022-07-14 15:26:51,329 INFO [capacityManagement] start correct usage
+
+2022-07-14 15:26:51,340 INFO [capacityManagement] end correct usage, cost: 0.0096787s
+
+2022-07-14 15:26:51,590 WARN clearConfigHistory start
+
+2022-07-14 15:26:51,591 WARN clearConfigHistory, getBeforeStamp:2022-06-14 15:26:51.0, pageSize:1000
+
+2022-07-14 15:36:51,353 INFO [capacityManagement] start correct usage
+
+2022-07-14 15:36:51,370 INFO [capacityManagement] end correct usage, cost: 0.0174972s
+
+2022-07-14 15:36:51,600 WARN clearConfigHistory start
+
+2022-07-14 15:36:51,600 WARN clearConfigHistory, getBeforeStamp:2022-06-14 15:36:51.0, pageSize:1000
+
+2022-07-14 15:41:50,367 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@2fe0f636 (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 15:41:52,517 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@76f75757 (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 15:46:51,381 INFO [capacityManagement] start correct usage
+
+2022-07-14 15:46:51,616 WARN clearConfigHistory start
+
+2022-07-14 15:46:51,616 WARN clearConfigHistory, getBeforeStamp:2022-06-14 15:46:51.0, pageSize:1000
+
+2022-07-14 15:46:54,631 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3010ms.
+
+2022-07-14 15:56:54,634 WARN clearConfigHistory start
+
+2022-07-14 15:56:54,635 WARN clearConfigHistory, getBeforeStamp:2022-06-14 15:56:54.0, pageSize:1000
+
+2022-07-14 16:06:54,669 WARN clearConfigHistory start
+
+2022-07-14 16:06:54,669 WARN clearConfigHistory, getBeforeStamp:2022-06-14 16:06:54.0, pageSize:1000
+
+2022-07-14 16:16:54,687 WARN clearConfigHistory start
+
+2022-07-14 16:16:54,688 WARN clearConfigHistory, getBeforeStamp:2022-06-14 16:16:54.0, pageSize:1000
+
+2022-07-14 16:26:54,709 WARN clearConfigHistory start
+
+2022-07-14 16:26:54,710 WARN clearConfigHistory, getBeforeStamp:2022-06-14 16:26:54.0, pageSize:1000
+
+2022-07-14 16:36:54,729 WARN clearConfigHistory start
+
+2022-07-14 16:36:54,730 WARN clearConfigHistory, getBeforeStamp:2022-06-14 16:36:54.0, pageSize:1000
+
+2022-07-14 16:37:16,348 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-07-14 16:37:16,349 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-07-14 16:37:16,393 INFO Completed initialization in 37 ms
+
+2022-07-14 16:46:54,756 WARN clearConfigHistory start
+
+2022-07-14 16:46:54,756 WARN clearConfigHistory, getBeforeStamp:2022-06-14 16:46:54.0, pageSize:1000
+
+2022-07-14 16:56:54,778 WARN clearConfigHistory start
+
+2022-07-14 16:56:54,779 WARN clearConfigHistory, getBeforeStamp:2022-06-14 16:56:54.0, pageSize:1000
+
+2022-07-14 17:06:54,804 WARN clearConfigHistory start
+
+2022-07-14 17:06:54,804 WARN clearConfigHistory, getBeforeStamp:2022-06-14 17:06:54.0, pageSize:1000
+
+2022-07-14 17:16:54,820 WARN clearConfigHistory start
+
+2022-07-14 17:16:54,820 WARN clearConfigHistory, getBeforeStamp:2022-06-14 17:16:54.0, pageSize:1000
+
+2022-07-14 17:26:54,827 WARN clearConfigHistory start
+
+2022-07-14 17:26:54,829 WARN clearConfigHistory, getBeforeStamp:2022-06-14 17:26:54.0, pageSize:1000
+
+2022-07-14 17:36:54,857 WARN clearConfigHistory start
+
+2022-07-14 17:36:54,857 WARN clearConfigHistory, getBeforeStamp:2022-06-14 17:36:54.0, pageSize:1000
+
+2022-07-14 17:46:54,871 WARN clearConfigHistory start
+
+2022-07-14 17:46:54,872 WARN clearConfigHistory, getBeforeStamp:2022-06-14 17:46:54.0, pageSize:1000
+
+2022-07-14 17:56:54,890 WARN clearConfigHistory start
+
+2022-07-14 17:56:54,890 WARN clearConfigHistory, getBeforeStamp:2022-06-14 17:56:54.0, pageSize:1000
+
+2022-07-14 18:11:28,737 WARN clearConfigHistory start
+
+2022-07-14 18:11:28,738 WARN clearConfigHistory, getBeforeStamp:2022-06-14 18:11:28.0, pageSize:1000
+
+2022-07-14 18:11:37,178 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s548ms490µs800ns).
+
+2022-07-14 18:11:38,745 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@33af4c01 (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 18:11:38,745 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@732bd950 (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 18:11:38,747 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 10007ms.
+
+2022-07-14 18:21:38,761 WARN clearConfigHistory start
+
+2022-07-14 18:21:38,762 WARN clearConfigHistory, getBeforeStamp:2022-06-14 18:21:38.0, pageSize:1000
+
+2022-07-14 21:23:51,840 WARN clearConfigHistory start
+
+2022-07-14 21:23:51,841 WARN clearConfigHistory, getBeforeStamp:2022-06-14 21:23:51.0, pageSize:1000
+
+2022-07-14 21:24:00,196 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@3ef9ac2f (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-14 21:24:00,197 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 8355ms.
+
+2022-07-14 21:24:00,210 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@7292463a (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+

@@ -1,0 +1,106 @@
+2022-07-09 09:43:38,548 WARN clearConfigHistory start
+
+2022-07-09 09:43:38,560 WARN clearConfigHistory, getBeforeStamp:2022-06-09 09:43:38.0, pageSize:1000
+
+2022-07-09 09:43:42,027 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h12m50s831ms976µs100ns).
+
+2022-07-09 09:51:09,206 INFO [capacityManagement] start correct usage
+
+2022-07-09 09:51:09,211 INFO [capacityManagement] end correct usage, cost: 0.0044093s
+
+2022-07-09 09:53:38,563 WARN clearConfigHistory start
+
+2022-07-09 09:53:38,564 WARN clearConfigHistory, getBeforeStamp:2022-06-09 09:53:38.0, pageSize:1000
+
+2022-07-09 10:01:09,214 INFO [capacityManagement] start correct usage
+
+2022-07-09 10:01:09,220 INFO [capacityManagement] end correct usage, cost: 0.0058099s
+
+2022-07-09 10:03:38,569 WARN clearConfigHistory start
+
+2022-07-09 10:03:38,569 WARN clearConfigHistory, getBeforeStamp:2022-06-09 10:03:38.0, pageSize:1000
+
+2022-07-09 10:11:09,235 INFO [capacityManagement] start correct usage
+
+2022-07-09 10:11:09,239 INFO [capacityManagement] end correct usage, cost: 0.0035515s
+
+2022-07-09 10:13:38,581 WARN clearConfigHistory start
+
+2022-07-09 10:13:38,582 WARN clearConfigHistory, getBeforeStamp:2022-06-09 10:13:38.0, pageSize:1000
+
+2022-07-09 10:14:07,126 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@1e6e436c (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-09 10:14:07,130 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@6600d473 (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-09 10:21:09,243 INFO [capacityManagement] start correct usage
+
+2022-07-09 10:21:09,325 INFO [capacityManagement] end correct usage, cost: 0.0820552s
+
+2022-07-09 10:23:38,588 WARN clearConfigHistory start
+
+2022-07-09 10:23:38,589 WARN clearConfigHistory, getBeforeStamp:2022-06-09 10:23:38.0, pageSize:1000
+
+2022-07-09 10:30:43,687 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@6b44015c (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-09 10:30:43,693 WARN HikariPool-1 - Failed to validate connection dm.jdbc.driver.DmdbConnection@61bc6a2c (连接尚未建立或已经关闭). Possibly consider using a shorter maxLifetime value.
+
+2022-07-09 10:31:09,334 INFO [capacityManagement] start correct usage
+
+2022-07-09 10:33:38,733 WARN clearConfigHistory start
+
+2022-07-09 10:33:38,733 WARN clearConfigHistory, getBeforeStamp:2022-06-09 10:33:38.0, pageSize:1000
+
+2022-07-09 10:33:41,740 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3004ms.
+
+2022-07-09 10:43:41,749 WARN clearConfigHistory start
+
+2022-07-09 10:43:41,750 WARN clearConfigHistory, getBeforeStamp:2022-06-09 10:43:41.0, pageSize:1000
+
+2022-07-09 10:43:44,767 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3013ms.
+
+2022-07-09 10:53:44,775 WARN clearConfigHistory start
+
+2022-07-09 10:53:44,775 WARN clearConfigHistory, getBeforeStamp:2022-06-09 10:53:44.0, pageSize:1000
+
+2022-07-09 10:53:47,792 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3010ms.
+
+2022-07-09 11:03:47,804 WARN clearConfigHistory start
+
+2022-07-09 11:03:47,805 WARN clearConfigHistory, getBeforeStamp:2022-06-09 11:03:47.0, pageSize:1000
+
+2022-07-09 11:03:50,808 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3001ms.
+
+2022-07-09 11:13:50,824 WARN clearConfigHistory start
+
+2022-07-09 11:13:50,824 WARN clearConfigHistory, getBeforeStamp:2022-06-09 11:13:50.0, pageSize:1000
+
+2022-07-09 11:13:53,844 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3013ms.
+
+2022-07-09 11:23:53,854 WARN clearConfigHistory start
+
+2022-07-09 11:23:53,854 WARN clearConfigHistory, getBeforeStamp:2022-06-09 11:23:53.0, pageSize:1000
+
+2022-07-09 11:23:56,862 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3006ms.
+
+2022-07-09 14:31:00,667 WARN clearConfigHistory start
+
+2022-07-09 14:31:00,667 WARN clearConfigHistory, getBeforeStamp:2022-06-09 14:31:00.0, pageSize:1000
+
+2022-07-09 14:31:03,679 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3008ms.
+
+2022-07-09 14:34:13,047 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h3m44s703ms549µs100ns).
+
+2022-07-09 14:40:48,312 WARN clearConfigHistory start
+
+2022-07-09 14:40:48,312 WARN clearConfigHistory, getBeforeStamp:2022-06-09 14:40:48.0, pageSize:1000
+
+2022-07-09 14:40:51,324 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3010ms.
+
+2022-07-09 17:46:41,139 WARN clearConfigHistory start
+
+2022-07-09 17:46:41,139 WARN clearConfigHistory, getBeforeStamp:2022-06-09 17:46:41.0, pageSize:1000
+
+2022-07-09 17:46:41,649 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s398ms623µs300ns).
+
+2022-07-09 17:46:44,163 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3020ms.
+

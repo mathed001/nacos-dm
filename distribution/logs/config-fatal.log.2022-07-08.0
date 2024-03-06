@@ -1,0 +1,13 @@
+2022-07-08 13:45:49,439 WARN [master-db] jdbc:dm://127.0.0.1:5236
+
+2022-07-08 13:45:49,580 WARN isQuickStart:false
+
+2022-07-08 13:45:49,782 ERROR Nacos Server did not start because dumpservice bean construction failure :
+org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [SELECT id,data_id,group_id,tenant_id,app_name,content,md5,gmt_modified,type,encrypted_data_key FROM config_info WHERE id > ? ORDER BY id ASC LIMIT ?,?]; 第1 行附近出现错误:
+无效的列名[ENCRYPTED_DATA_KEY]; nested exception is dm.jdbc.driver.DMException: 第1 行附近出现错误:
+无效的列名[ENCRYPTED_DATA_KEY]
+
+2022-07-08 14:29:05,650 WARN [master-db] jdbc:dm://127.0.0.1:5236
+
+2022-07-08 14:29:05,760 WARN isQuickStart:false
+
